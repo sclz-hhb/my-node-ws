@@ -7,8 +7,8 @@
   "scripts": {
     "dev": "node index.js",
     "start": "node index.min.js",
-    "encrypted2": "node secret-hug-cf.js",
-    "encrypted1": "node secret-hug-direct.js"
+    "encrypted1": "node secret-hug-cf.js",
+    "encrypted2": "node secret-hug-direct.js"
   },
   "dependencies": {
     "ws": "^8.14.2",
