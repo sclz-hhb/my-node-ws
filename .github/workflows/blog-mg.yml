@@ -1,4 +1,4 @@
-name: blog-hug
+name: blog-mg
 
 on:
   push:
@@ -45,7 +45,7 @@ jobs:
           push: true
           platforms: linux/amd64,linux/arm64
           tags: |
-            ghcr.io/${{ github.repository_owner }}/blog-hug:5.0
+            ghcr.io/${{ github.repository_owner }}/blog-mg:1.0
           labels: |
             org.opencontainers.image.source=https://github.com/${{ github.repository }}
             org.opencontainers.image.description=blog
